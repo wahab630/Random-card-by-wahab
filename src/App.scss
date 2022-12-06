@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+// --------------------------------------------- Header-------------------------
+.header {
+    background-color: black;
+    padding-top: 10px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    color: white;
+  .btn-blue{
+    background-image: linear-gradient(180deg,#033047,#91dbff)!important;
+    color: white;
+    border: none;
+    padding: 4px  9px;
+    border-radius: 3rem;
+  }
+    .logo {
+      max-height: 41px;
+      // border: 2px solid white;
+      max-width: 140px;
+    }
+  }
+// -------------------------------------------------Footer-----------------------
+
+.footer{
+    background-color:#12436b ;
+    color: white;   
+    .footer-line{
+        border: 1px solid white ;
+        font-weight: bold;
+        color: white;
+    }
+    .footer-img{
+        height: 31px;
+        width: 200px;
+    }
+}
+.hero{
+  .card-h{
+  font-size: 90px;
+  color: white;
+  }
+  .btn{
+    background-color: #033047;
+    color: white;
+    padding: 15px 60px;
+  }
+}
+
+
