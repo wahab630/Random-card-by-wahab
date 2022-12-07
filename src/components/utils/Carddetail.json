@@ -1,0 +1,28 @@
+[
+  {
+    "img": "assets/one.jpg",
+    "name": "Card 1",
+    "title":"gold"
+  },
+  {
+    "img": "assets/two.jpg",
+    "name": "Card 2",
+    "title":"bronze"
+  },
+  {
+    "img": "assets/three.jpg",
+    "name": "Card 3",
+    "title":"diamond"
+  },
+  {
+    "img": "assets/four.jpg",
+    "name": "Card 4",
+    "title":"silver"
+  },
+  {
+    "img": "assets/four.jpg",
+    "name": "Card 5",
+    "title":"steel"
+  }
+  
+]
