@@ -2,27 +2,37 @@
   {
     "img": "assets/one.jpg",
     "name": "Card 1",
-    "title":"gold"
+    "title":"gold 5%",
+    "titletwo":"bronze 50%",
+    "titlethree":"silver 20%"
   },
   {
     "img": "assets/two.jpg",
     "name": "Card 2",
-    "title":"bronze"
+    "title":"gold 10%",
+    "titletwo":"bronze 20%",
+    "titlethree":"silver 40%"
   },
   {
     "img": "assets/three.jpg",
     "name": "Card 3",
-    "title":"diamond"
+    "title":"gold 40%",
+    "titletwo":"bronze 70%",
+    "titlethree":"silver 80%"
   },
   {
     "img": "assets/four.jpg",
     "name": "Card 4",
-    "title":"silver"
+    "title":"gold 60%",
+    "titletwo":"bronze 30%",
+    "titlethree":"silver 70%"
   },
   {
-    "img": "assets/four.jpg",
+    "img": "assets/five.jpg",
     "name": "Card 5",
-    "title":"steel"
+    "title":"gold 80%",
+    "titletwo":"bronze 90%",
+    "titlethree":"silver 30%"
   }
   
 ]

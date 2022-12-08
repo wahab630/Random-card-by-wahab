@@ -6,6 +6,8 @@ const Hero = () => {
   const [data, setData] = useState("");
   const [image, setImage] = useState("");
   const [title, setTitle]= useState("");
+  const [titletwo, setTitleTwo]=useState("");
+  const [titlethree, setTitleThree]=useState("");
 
   const myFunction = () => {
     const random_data = carddata[Math.floor(Math.random() * carddata.length)];
@@ -13,6 +15,8 @@ const Hero = () => {
     setData(random_data.name);
     setImage(random_data.img);
     setTitle(random_data.title);
+    setTitleTwo(random_data.titletwo);
+    setTitleThree(random_data.titlethree);
   };
 
   // const [number,setNumber]=useState("");
@@ -54,12 +58,14 @@ const Hero = () => {
           <div className="row">
             <div className="col-md-4 mx-auto my-5">
               <div className="card">
-                <div className="card-body">
+                <div className="card-body text-center">
                   <div>
-                  <img src={image} className="card-img" alt="" />
+                  <img src={image} className="card-img" alt="no" />
                   </div>
                   <h1>{data}</h1>
                   <p>{title}</p>
+                  <p>{titletwo}</p>
+                  <p>{titlethree}</p>
                 </div>
               </div>
             </div>
